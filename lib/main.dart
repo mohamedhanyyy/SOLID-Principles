@@ -1,7 +1,6 @@
-import 'package:solid/single%20responsibility/customer.dart';
+//TODO: Mohamed Hany SOLID Principles explanation
 
 void main() {
-  Customer? customer;
-  customer!.name = 'mohaemd';
+
 
 }

@@ -1,3 +1,6 @@
+// TODO: Principle 1
+// TODO: every class must have a single responsibility.
+
 class Customer {
   String? _name;
   String? _order;
@@ -9,7 +12,7 @@ class Customer {
     this._order = order;
     this._orderNumber = orderNumber;
     this._incomeTime = incomeTime;
-  }
+   }
 
   DateTime get incomeTime => _incomeTime!;
 
@@ -36,7 +39,6 @@ class Customer {
   }
 
   void printCustomerData() {
-    print(
-        'Customer Data is ${this._name} ${this._incomeTime}, ${this._order}, ${this._orderNumber} .');
+    print('Customer Data is ${this._name} ${this._incomeTime}, ${this._order}, ${this._orderNumber} .');
   }
 }
